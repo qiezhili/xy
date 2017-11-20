@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*统一全局设置*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "microsoft yahei","微软雅黑";
+}
+
+ul,li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*logo区域*/
+.logo {
+	width: 980px;
+	height: 40px;
+	padding-top: 15px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+/*logo图片*/
+.logo > a {
+	width: 174px;
+	height: 40px;
+	display: block;
+	background: url(../images/logo.png) no-repeat;
+	float: left;
+	text-indent: -9999px;
+}
+
+/*logo顶部导航按钮*/
+.logo p {
+	float: right;
+	height: 40px;
+}
+
+.logo p a {
+	width: 96px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float:right;
+	color: #95d3ff;
+	margin-left: 25px;
+}
+
+.logo p a:hover {
+	background: url(../images/downloadHeader.png) no-repeat;	
+}
+
+/*主内容区*/
+.wrapper {
+	width: 100%;
+	min-height: 1000px;
+	position: absolute;
+	margin-top: -55px;
+}
+
+/*banner*/
+.banner {
+	height: 540px;
+	background: url(../images/top_bg.jpg) no-repeat center;
+}
+
+.banner-center {
+	width: 980px;
+	height: 540px;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+
+.banner .banner-center .back-img1 {
+	width: 490px;
+	height: 540px;
+	float: left;
+	background: url(../images/bg_top_cinema_0.png) no-repeat center;
+}
+
+.banner .banner-center .back-img2 {
+	width: 490px;
+	height: 540px;
+	float: left;
+	position: relative;
+	top:100px;
+}
+
+.banner .back-img2_1 {
+	width: 480px;
+	height: 200px;
+	background: url(../images/img.png) no-repeat;
+}
+
+.banner .back-img2 a {
+	display: block;
+	width: 255px;
+	height: 76px;
+	background: url(../images/img.png) no-repeat -14px -205px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.banner .back-img2 span {
+	display: block;
+	width: 335px;
+	height: 44px;
+	background: url(../images/img.png) no-repeat -14px -287px;
+	margin-left: 20px;
+}
